@@ -1,0 +1,12 @@
+.team-listing{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+  }
+  
+  .battle-log{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+  }
