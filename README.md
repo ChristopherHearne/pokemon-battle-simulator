@@ -1,6 +1,7 @@
 # Pokémon Battle Simulator
 
 Submission of Code Test v2 by Christofer Hearne
+
 Time spent on assigment: 6 hours
 
 # Time constraints and thoughts
@@ -14,20 +15,24 @@ The biggest time constraint for the solution was Dockerizing the solution to be 
 
 - Docker
 - Docker Compose
+- Git
 
 ## Getting Started
 
-### 1. Clone the repository:
+1. Clone the repository:
+
+	Run the following commands in the terminal (in your root directory):
 
    ```git clone https://github.com/ChristopherHearne/pokemon-battle-simulator.git```
 
    ```cd pokemon-battle-simulator```
-### 2. Run the application:
+ 2. Run the application:
 
 	```docker compose up --build -d``` To run in detached mode
 
 	```docker compose up --build``` To run in interactive mode
-### 3. Access the local solution
+	
+ 3. Access the local solution
 
 	Navigate to http://localhost:3001 in your browser to interact with the solution.
 
