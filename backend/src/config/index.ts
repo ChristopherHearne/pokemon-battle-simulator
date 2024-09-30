@@ -18,5 +18,5 @@ export const config = {
 	get api_url(){
 		return `http://localhost:${this.port}/api/battle`
 	},
-	allowed_origin: 'https://localhost:3001'
+	allowed_origin: 'http://localhost:3001'
   };
